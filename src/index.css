@@ -138,7 +138,7 @@ header {
 
 /*      ABOUT BEGIN       */
 .about {
-  margin: 2rem 8rem;
+  margin-left: 8rem;
 }
 .bio-area {
   display: -ms-flexbox;
@@ -172,8 +172,8 @@ header {
   justify-content: center;
 }
 
-/* MEDIA QUERIES for ABOUT */
-@media screen and (max-width: 1024px) { 
+/* MEDIA QUERIES for ABOUT SECTION */
+/*@media screen and (max-width: 1024px) { 
   .about {
       background-color: red;
   } 
@@ -191,8 +191,7 @@ header {
       outline: 1.6rem solid var(--third);
       outline-offset: 0 -10rem;
       /* border: 1.8rem solid var(--third); */
-  }
-}
+  /* } } */
 /*      ABOUT END       */
 
 
@@ -321,7 +320,6 @@ animation-delay: 0.1s;
   .container{
     width: var(--container-width-md);
   }
-
   section {
     margin-top: 5rem;
   }
