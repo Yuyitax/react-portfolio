@@ -1,9 +1,9 @@
 import React from 'react'
-import './experience.css'
+import '../../src/index.css'
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <div className='experience'>Experience</div>
   )
 }
 

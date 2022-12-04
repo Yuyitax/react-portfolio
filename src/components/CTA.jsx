@@ -1,5 +1,6 @@
 import React from 'react'
-import Resume from '../../assets/CY-Resume.pdf'
+import Resume from '../assets/CY-Resume.pdf'
+import '../../src/index.css'
 
 const CTA = () => {
   return (

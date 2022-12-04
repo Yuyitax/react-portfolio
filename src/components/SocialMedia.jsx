@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
+import '../../src/index.css'
 
 const SocialMedia = () => {
   return (
