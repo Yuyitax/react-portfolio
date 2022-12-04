@@ -18,7 +18,6 @@ export default function About () {
         I help companies and individuals find solutions through digital outlets. I focus on Digital First and 508 Compliant web design (the world needs to be more inclusive, why not start with your website?)</p>
 
             </section>
-            
             <CTA />
         </div>
     );

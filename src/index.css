@@ -160,7 +160,10 @@ header {
   padding-left: 1.8rem;
 }
 .about-text {
+  display: block;
   text-align: left;
+  align-items: center;
+  margin-top: 3rem;
 }
 .cta {
   margin-top: 5rem;
@@ -196,7 +199,75 @@ header {
 /* EXPERIENCE BEGIN */
 .experience {
   margin: 2rem 8rem;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background-color: var(--third);
+  padding: 1.3rem;
+  border-radius: 7px;
 }
+.exp-box {
+width: 100%;
+margin: 2rem 0;
+}
+.exp-title {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14;
+  font-weight: 400;
+}
+.exp-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1902281d;
+}
+.skill-for {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 95%;
+  border-radius: 6px;
+  background: linear-gradient(45deg, var(--green), var(--thirdfour));
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-for.html {
+width: 90%;
+animation-delay: 0.1s;
+}
+.skill-for.css {
+  width: 90%;
+  animation-delay: 0.2s;
+}
+.skill-for.js {
+  width: 70%;
+  animation-delay: 0.3s;
+  }
+  .skill-for.react {
+    width: 80%;
+    animation-delay: 0.3s;
+    }
+
+  @keyframes progress {
+    0% {
+      width: 0;
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -20px;
+    font-size: 9px;
+    font-weight: 400;
+  }
 /* EXPERIENCE END */
 
 
