@@ -14,7 +14,7 @@
   /* First Option */
   --eggplant: #370325;
   --darkblue: #111b35;
-  --cadet: #51a3a3;
+  --cadet: #5ebbbb;
   --orange: #CB904D;
   --yellow: #DFCC74;
   --green: #c5f08e;
@@ -22,7 +22,7 @@
   --first: #3F3B6C;
   --second: #624F82;
   --third: #A267AC;
-  --fourth: #A3C7D6;
+  --fourth: #b0ddef;
   --thirdone: #210135;
   --thirdtwo: #570A57;
   --thirdthree: #A91079;
@@ -77,16 +77,23 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--orange);
-  padding: 1rem 1.2rem;
+  color: var(--fourth);
+  padding: 0.75rem 1.2rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--third);
+  border: 2px solid var(--cadet);
   transition: var(--transition);
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn:hover {
   background-color: var(--fourth);
-  color: var(--second);
+  color: var(--thirdfour);
+}
+
+.btn-primary {
+  background: var(--fourth);
+  color: var(--darkblue);
+  border: 2px solid var(--cadet);
 }
 
 img {
