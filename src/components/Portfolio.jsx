@@ -3,7 +3,9 @@ import '../../src/index.css'
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>Portfolio</div>
+    <div className='container portfolio' id='portfolio'>
+      <h2>Portfolio</h2>
+    </div>
   )
 }
 

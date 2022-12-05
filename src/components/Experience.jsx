@@ -3,7 +3,7 @@ import '../../src/index.css'
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <div className='container experience' id='experience'>
       <h2>Experience</h2>
 
       <div className='exp-box'>
