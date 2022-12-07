@@ -10,7 +10,7 @@ import {AiFillEdit} from 'react-icons/ai'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-    <a href="home"><AiFillHome/></a>
+    <a href="#home"><AiFillHome/></a>
     <a href="#about"><FaUserCircle/></a>
     <a href="#experience"><FaBrain/></a>
     <a href="#portfolio"><BsFillBriefcaseFill/></a>

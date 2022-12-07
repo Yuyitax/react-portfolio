@@ -3,7 +3,7 @@ import '../../src/index.css'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className='header'>
         <h1 className='page-title'>
         Yuyitax's<br />

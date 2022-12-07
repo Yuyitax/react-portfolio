@@ -41,27 +41,45 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 50px;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: var(--thirdone);
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--darkerpurple);
   color: white;
   background-image: url(./assets/pixel-texture.png);
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: auto;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5 {
   font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
 }
 
 h2 {
   font-size: 1.8rem;
+}
+img {
+  width: 100%;
+  height: auto;
 }
 
 a {
@@ -103,7 +121,7 @@ a:hover {
 }
 
 /*      NAVBAR BEGIN       */
-.navbar {
+nav.navbar {
   margin: 5rem 2rem 2rem 3rem;
   display: flex;
   gap: 1rem;
@@ -111,16 +129,19 @@ a:hover {
   position: fixed;
   z-index: 1;
 }
-.navbar a:link {
+nav.navbar.scrolled {
+  padding: 0px 0;
+}
+nav.navbar a:link {
   color: var(--third);
   text-decoration: none;
   font-size: 22px;
 }
-.navbar a:hover {
+nav.navbar a:hover {
   color: var(--thirdfour);
   text-decoration: none;
 }
-.navbar a:focus {
+nav.navbar a:focus {
   color: var(--thirdfour);
 }
 /*      NAVBAR END       */
@@ -128,18 +149,19 @@ a:hover {
 
 /*      HEADER BEGIN       */
 .header {
-  background-image: url('./assets/galaxy-idea2.png');
+  /* background-image: url('./assets/galaxy-idea2.png'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-color: #111b3562;
-  transform: scale(1.2);
   position: relative;
   height: 50vh;
   width: 100vw;
   padding-top: 5rem;
   padding-left: 8rem;
+  margin-top: 0;
   margin-bottom: 5rem;
+  background-position: top left;
 }
 .page-title {
   font-family: 'Poppins', sans-serif;
@@ -167,6 +189,8 @@ a:hover {
 /*      ABOUT BEGIN       */
 .about {
   width: 100%;
+  display: block;
+  flex-direction: row;
   position: relative;
   justify-content: center;
   align-items: center !important;
@@ -206,17 +230,19 @@ a:hover {
 
 /* EXPERIENCE BEGIN */
 .experience {
-  margin: 2rem 8rem;
+  padding: 0 0 50px 0;
   position: relative;
-  max-width: 500px;
-  width: 100%;
+  align-self: center;
+  margin: 2rem 10rem;
   background-color: var(--third);
   padding: 1.3rem;
   border-radius: 7px;
+  max-width: 500px;
 }
 .exp-box {
-width: 100%;
-margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
 }
 .exp-title {
   display: block;
@@ -404,10 +430,11 @@ form {
 
     /* CONTACT BEGIN */
 .contact {
-  width: 80%;
-  display: flexbox;
+  width: 60%;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 /* CONTACT END */
@@ -418,4 +445,11 @@ form {
       left: 0;
       margin-top: 2rem;
     }
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
 }
