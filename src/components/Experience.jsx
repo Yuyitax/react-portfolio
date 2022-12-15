@@ -3,8 +3,11 @@ import '../../src/index.css'
 
 const Experience = () => {
   return (
-    <div className='container experience' id='experience'>
-      <h2>Experience</h2>
+    <div className='flex flex-col w-full sm:flex-cols-1 md:flex-cols-1 lg:flex-cols-1 gap-8 items-center content-center mt-8' id='experience'>
+      <h2 className='text-right text-4xl mt-4'>
+      Experience
+            </h2>
+            <div className='experience w-[40%]'>
 
       <div className='exp-box'>
         <span className='exp-title'>HTML</span>
@@ -38,6 +41,7 @@ const Experience = () => {
              <span className='tooltip'>80%</span>
           </span>
         </div>
+      </div>
       </div>
 
       </div>
