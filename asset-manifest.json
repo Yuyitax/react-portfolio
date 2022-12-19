@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/yuyitax-react-portfolio/static/css/main.994d5316.css",
-    "main.js": "/yuyitax-react-portfolio/static/js/main.da9c3338.js",
+    "main.js": "/yuyitax-react-portfolio/static/js/main.bd86cd05.js",
     "static/media/code-symbol_blue.jpg": "/yuyitax-react-portfolio/static/media/code-symbol_blue.a3b78472452f82c047e2.jpg",
     "static/media/profile-photo.jpg": "/yuyitax-react-portfolio/static/media/profile-photo.1af1ed366e04057a3c0b.jpg",
     "static/media/CY-Resume.pdf": "/yuyitax-react-portfolio/static/media/CY-Resume.e8233658fdff0cdf53d5.pdf",
     "index.html": "/yuyitax-react-portfolio/index.html",
     "main.994d5316.css.map": "/yuyitax-react-portfolio/static/css/main.994d5316.css.map",
-    "main.da9c3338.js.map": "/yuyitax-react-portfolio/static/js/main.da9c3338.js.map"
+    "main.bd86cd05.js.map": "/yuyitax-react-portfolio/static/js/main.bd86cd05.js.map"
   },
   "entrypoints": [
     "static/css/main.994d5316.css",
-    "static/js/main.da9c3338.js"
+    "static/js/main.bd86cd05.js"
   ]
 }
